@@ -1,0 +1,117 @@
+
+
+ body {
+	margin: 0;
+	text-align: left;
+	font-family: Roboto, Poppins, Montserrat;
+	 position: relative;
+	padding-top: 100px;
+}
+
+.main-text {
+	font-size: 1.125rem; 
+	font-family: Roboto;
+}
+
+.author-text {
+	font-family: Poppins;
+	color: #393e46;
+	font-size: 1.5rem; 
+}
+
+.top-container {
+	background-color: #FFFFFF;
+	position: relative;
+	
+	text-align:center;
+}
+
+.profile-container {
+	backgroung-color: #fff; 
+	text-align: center; 
+}
+
+.middle-container {
+	background-color: lightblue;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.bottom-container {
+	background-color: blue;
+	margin: 50px 0;
+}
+
+.blog-container {
+	width: 1140px;
+	margin: 20px auto 0 auto;
+}
+
+.intro {
+	text-align: center;
+	font-size: 1rem;
+	padding-left: 00px;
+	font-family: Poppins;
+	padding-top: 50px;
+}
+
+.table {
+	position: center;
+	padding-left: 380px;
+	padding-top: 100px;
+}
+
+.work {
+	text-align: center;
+}
+
+/*ummmmm*/
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 40px;
+	margin: 0 5%;
+}
+
+.grid-kid {
+	border-top: 4px solid;
+	border-radius: 5px;
+	box-shadow: 5px 10px 8px #888888;
+	height: 280px;
+}
+
+.grid-kid img {
+	float: right; 
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.card1 {
+	border-color: hsl(180, 62%, 55%);
+	grid-area: 2 / 1 / 4 / 2;
+}
+
+.card2 {
+	border-color: hsl(0, 78%, 62%);
+	grid-area: 1 / 2 / 3 / 3;
+}
+
+.card3 {
+	border-color: hsl(34, 86%, 64%);
+	grid-area: 3 / 2 / 5 / 3;
+}
+
+.card4 {
+	border-color: hsl(212, 86%, 64%);
+	grid-area: 2 / 3 / 4 / 4;
+}
+
+
+
+
+
+
+
+
